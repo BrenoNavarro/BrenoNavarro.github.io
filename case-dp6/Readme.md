@@ -12,17 +12,9 @@ npm install -g serve
 
 Depois de instalado, execute o comando <i>serve</i> em alguma terminal, cmd, powershell ou terminal do editor de código.
 
-![image-20201230144744203](C:\Users\Breno\AppData\Roaming\Typora\typora-user-images\image-20201230144744203.png)
-
-
-
 ### Google Analytics Debugger
 
 Além disso, para debuggar foi utilizado a extensão <i>[Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna)</i>, por onde, a quem interessar possa conferir os envios dos dados. 
-
-![image-20201230150108159](C:\Users\Breno\AppData\Roaming\Typora\typora-user-images\image-20201230150108159.png)
-
-
 
 ## Case
 
