@@ -34,4 +34,4 @@ Na página sobre, o envio ocorre em cada campo do formulário preenchido pelo us
 
 ## Github pages
 
-A aplicação também pode ser acessada pelo Github pages através de <a target="_blank">[index.html](https://brenonavarro.github.io/case-dp6/index.html)</a>
+A aplicação também pode ser acessada pelo Github pages através de <a href='https://brenonavarro.github.io/case-dp6/index.html' target="_blank">[index.html]</a>
