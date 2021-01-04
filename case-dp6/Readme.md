@@ -32,3 +32,6 @@ Na página de análise, o envio ocorre caso o usuário clique em um ou mais <i>c
 
 Na página sobre, o envio ocorre em cada campo do formulário preenchido pelo usuário, a ação contida no envio depende do id do campo em específico. Outro envio ocorrerá quando o usuário utilizar o botão enviar.
 
+## Github pages
+
+A aplicação também pode ser acessada pelo Github pages através de [https://brenonavarro.github.io/case-dp6/index.html](index.html)
