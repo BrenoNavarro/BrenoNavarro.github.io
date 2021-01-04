@@ -7,7 +7,8 @@
 
 // Eventos em todas as páginas
 ga('create', 'UA-12345-6', {
-    'cookieDomain': 'none'
+    'cookieDomain': 'none',
+    storeGac: false,
 });
 ga('set', 'checkProtocolTask', function() {});
 ga('send', 'pageview', '/options.html');
