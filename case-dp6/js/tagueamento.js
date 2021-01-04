@@ -6,7 +6,7 @@
 // Caso tenha alguma dúvida sobre o case, não hesite em entrar em contato.
 
 // Eventos em todas as páginas
-ga('create', 'UA-12345-6', 'auto');
+ga('create', 'UA-12345-6', 'none');
 ga('set', 'checkProtocolTask', function() { /* nothing */ });
 ga('send', 'pageview');
 
