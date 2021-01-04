@@ -18,7 +18,7 @@ ga('send', 'pageview', '/options.html');
 var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
 
 if (window.localStorage) {
-    ga('create', 'UA-XXXXX-Y', {
+    ga('create', 'UA-12345-6', {
         'storage': 'none',
         'clientId': localStorage.getItem(GA_LOCAL_STORAGE_KEY)
     });
@@ -28,7 +28,7 @@ if (window.localStorage) {
 } else {
     ga('create', 'UA-XXXXX-Y', 'auto');
 }
-
+ga('set', 'checkProtocolTask', function() {});
 ga('send', 'pageview');
 
 function addListener(element, type, callback) {
