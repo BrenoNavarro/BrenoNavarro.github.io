@@ -34,4 +34,4 @@ Na página sobre, o envio ocorre em cada campo do formulário preenchido pelo us
 
 ## Github pages
 
-A aplicação também pode ser acessada pelo Github pages através de [https://brenonavarro.github.io/case-dp6/index.html](index.html)
+A aplicação também pode ser acessada pelo Github pages através de [index.html](https://brenonavarro.github.io/case-dp6/index.html)
