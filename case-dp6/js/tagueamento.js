@@ -6,12 +6,30 @@
 // Caso tenha alguma dúvida sobre o case, não hesite em entrar em contato.
 
 // Eventos em todas as páginas
-ga('create', 'UA-12345-6', {
+/* ga('create', 'UA-12345-6', {
     'cookieDomain': 'none',
     storeGac: false,
 });
 ga('set', 'checkProtocolTask', function() {});
 ga('send', 'pageview', '/options.html');
+ */
+
+
+var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
+
+if (window.localStorage) {
+    ga('create', 'UA-XXXXX-Y', {
+        'storage': 'none',
+        'clientId': localStorage.getItem(GA_LOCAL_STORAGE_KEY)
+    });
+    ga(function(tracker) {
+        localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
+    });
+} else {
+    ga('create', 'UA-XXXXX-Y', 'auto');
+}
+
+ga('send', 'pageview');
 
 function addListener(element, type, callback) {
     if (element.addEventListener) element.addEventListener(type, callback);
