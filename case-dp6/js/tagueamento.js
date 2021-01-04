@@ -35,7 +35,7 @@ addListener(download, 'click', function() {
 
 
 // Eventos da página Análise
-if (location.pathname === '/analise') {
+if (location.pathname.includes('/analise')) {
 
     var cardId = '';
 
@@ -50,10 +50,11 @@ if (location.pathname === '/analise') {
 }
 
 // Eventos da página sobre
-if (location.pathname === '/sobre') {
+if (location.pathname.includes('/sobre')) {
 
     var cardId = '';
     var enviarForm = document.getElementById('enviar');
+
 
     function clickou(clickedId) {
 
