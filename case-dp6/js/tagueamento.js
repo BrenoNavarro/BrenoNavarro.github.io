@@ -6,15 +6,6 @@
 // Caso tenha alguma dúvida sobre o case, não hesite em entrar em contato.
 
 // Eventos em todas as páginas
-/* ga('create', 'UA-12345-6', {
-    'cookieDomain': 'none',
-    storeGac: false,
-});
-ga('set', 'checkProtocolTask', function() {});
-ga('send', 'pageview', '/options.html');
- */
-
-
 var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
 
 if (window.localStorage) {
@@ -26,7 +17,7 @@ if (window.localStorage) {
         localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
     });
 } else {
-    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('create', 'UA-12345-6', 'auto');
 }
 ga('set', 'checkProtocolTask', function() {});
 ga('send', 'pageview');
