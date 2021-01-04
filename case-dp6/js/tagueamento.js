@@ -7,7 +7,6 @@
 
 // Eventos em todas as páginas
 ga('create', 'UA-12345-6', 'MYDOMAIN');
-ga('set', 'checkProtocolTask', function() { /* nothing */ });
 ga('send', 'pageview');
 
 function addListener(element, type, callback) {
